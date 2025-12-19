@@ -15,7 +15,7 @@ function App() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Navbar
+            Resep Makanan
           </a>
           <button
             className="navbar-toggler"

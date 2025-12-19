@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to the Home Page</h1>
-      <p>This is the main landing page of the application.</p>
+      <h1>Resep Makanan dari Berbagai Negara</h1>
+      <p>Temukan berbagai resep makanan dari berbagai negara di seluruh dunia</p>
     </div>
   );
 }
