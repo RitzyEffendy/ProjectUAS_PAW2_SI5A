@@ -95,7 +95,6 @@ export default function ResepList() {
             <th>Nama Resep</th>
             <th>Negara</th>
             <th>Bahan</th>
-            <th>Kategori</th>
             <th>Aksi</th>
           </tr>
         </thead>
