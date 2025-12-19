@@ -95,7 +95,7 @@ export default function ResepList() {
             <th>Nama Resep</th>
             <th>Negara</th>
             <th>Bahan</th>
-            <th>Edit</th>
+            <th>Kategori</th>
             <th>Aksi</th>
           </tr>
         </thead>
@@ -107,8 +107,11 @@ export default function ResepList() {
               <td>{resep.namaResep}</td>
               <td>{resep.negara}</td>
               <td>{resep.bahan}</td>
-              <NavLink to={`/resep/edit/${resep._id}`} className="btn btn-warning me-2">Edit</NavLink>
-              <td><button className="btn btn-danger" onClick={() => handleDelete(resep._id, resep.namaResep)}>Hapus</button></td>
+              <td>{resep.kategori}</td>
+              <td>
+                <NavLink to={`/resep/edit/${resep._id}`} className="btn btn-warning me-2">Edit</NavLink>
+                <button className="btn btn-danger" onClick={() => handleDelete(resep._id, resep.namaResep)}>Hapus</button>
+              </td>
             </tr>
           ))}
         </tbody>
